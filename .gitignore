@@ -1,0 +1,36 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Expo & Build artifacts
+.expo/
+dist/
+web-build/
+*.tsbuildinfo
+
+# Native builds
+ios/Pods/
+ios/build/
+android/app/build/
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# Environment & local settings
+.env*.local
+.env
+.claude/
+
+# Logs
+*.log
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# OS
+.DS_Store
+Thumbs.db

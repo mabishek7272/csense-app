@@ -1,0 +1,51 @@
+{
+  "cli": { "version": ">= 16.0.0", "appVersionSource": "remote" },
+  "build": {
+    "development": { "developmentClient": true, "distribution": "internal" },
+    "apti-preview": {
+      "distribution": "internal",
+      "android": { "buildType": "apk" },
+      "env": {
+        "APP_VARIANT": "apti",
+        "EXPO_PUBLIC_API_BASE_URL": "https://app.3rdi.in",
+        "EXPO_PUBLIC_API_HOST": "app.3rdi.in"
+      }
+    },
+    "eaigleye-preview": {
+      "distribution": "internal",
+      "android": { "buildType": "apk" },
+      "env": {
+        "APP_VARIANT": "eaigleye",
+        "EXPO_PUBLIC_API_BASE_URL": "https://app.3rdi.in",
+        "EXPO_PUBLIC_API_HOST": "app.3rdi.in"
+      }
+    },
+    "3rdi-preview": {
+      "distribution": "internal",
+      "android": { "buildType": "apk" },
+      "env": {
+        "APP_VARIANT": "3rdi",
+        "EXPO_PUBLIC_API_BASE_URL": "https://app.3rdi.in",
+        "EXPO_PUBLIC_API_HOST": "app.3rdi.in"
+      }
+    },
+    "csense-preview": {
+      "distribution": "internal",
+      "android": { "buildType": "apk" },
+      "env": {
+        "APP_VARIANT": "csense",
+        "EXPO_PUBLIC_API_BASE_URL": "https://app.3rdi.in",
+        "EXPO_PUBLIC_API_HOST": "app.3rdi.in"
+      }
+    },
+    "production": {
+      "autoIncrement": true,
+      "env": {
+        "APP_VARIANT": "csense",
+        "EXPO_PUBLIC_API_BASE_URL": "https://app.3rdi.in",
+        "EXPO_PUBLIC_API_HOST": "app.3rdi.in"
+      }
+    }
+  },
+  "submit": { "production": {} }
+}
